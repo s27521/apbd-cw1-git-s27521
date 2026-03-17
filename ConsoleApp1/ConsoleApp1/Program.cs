@@ -36,5 +36,6 @@ class Program
             Name="Andrew",
             Wiek=27
         });
+        IEnumerable<Student> rezultat3 = studenci.Where(s => s.Wiek > 25);
     }
 }
