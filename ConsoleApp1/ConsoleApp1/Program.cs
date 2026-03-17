@@ -6,3 +6,11 @@
     public List<double> oceny { get; set; }
     public int Wiek { get; set; }
 }
+
+class Program
+{
+    public static void Main(string[] args)
+    {
+        
+    }
+}
