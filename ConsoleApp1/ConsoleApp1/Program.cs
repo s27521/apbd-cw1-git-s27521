@@ -9,8 +9,13 @@
 
 class Program
 {
+    public static int CalculateAverage(int[] values)
+    {
+        return values.Sum();
+    }
     public static void Main(string[] args)
     {
+        Console.WriteLine(CalculateAverage([10,20,30]));
         List<Student> studenci = new List<Student>();
         studenci.Add(new Student
         {
